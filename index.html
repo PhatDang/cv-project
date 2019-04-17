@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WhiteCloud Home View</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <!-- Link for CSS -->
+    <link rel="stylesheet" href="statics/css/main_template.css" />
+    <link rel="stylesheet" href="statics/fontawesome/css/all.css" />
+
+    <!-- Link for JS -->
+    <link rel="" href="" />
+</head>
+
+<body>
+        <!-- Top Navigation Menu -->
+        <nav class="topnav sticky">
+            <a href="index.html#head-panner" class="active">White Cloud</a>
+            <div id="myLinks">
+                <a href="index.html#about">About</a>
+                <!-- Don't need now -->
+                <!-- <a href="index.html#projects">Projects</a> -->
+                <a href="index.html#contact">Contact</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+            </a>
+        </nav>
+        <header id="head-panner">
+            <section>
+                <img class="mySlides" src="statics/img/pic1.jpg" alt="Pic 1">
+                <img class="mySlides" src="statics/img/pic2.jpg" alt="Pic 2">
+                <img class="mySlides" src="statics/img/pic3.jpg" alt="Pic 3">
+            </section>
+            <div class="text-block">
+                <p class="title">Welcome to White Cloud</p>
+                <p>Lorem ipsum dolor sit amet, an his etiam t...</p>
+            </div>
+        </header>
+        <section id="container">
+            <div id="about">
+                <h3>About Us</h3>
+                <p class="description">Type something in here...</p>
+                <div class="row col-12 col-s-12">
+                    <div class="column col-4 col-s-5">
+                        <article class="card">
+                            <img src="statics/img/avarta.jpg"/>
+                            <div class="content">
+                                <h2>Dang Minh Phat</h2>
+                                <p class="title">Back-end Developer</p>
+                                <p>Think Make Do...</p>
+                                <p>phatminh.0794@gmail.com</p>
+                                <a href="page/Content_CV.html">See more...</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="column col-4 col-s-5">
+                        <article class="card">
+                            <img src="statics/img/avarta.jpg"/>
+                            <div class="content">
+                                <h2>Le Minh Trung</h2>
+                                <p class="title">Associate Test Specialist</p>
+                                <p>tiping something in here...</p>
+                                <p>trungle170994@gmail.com</p>
+                                <a href="page/Content_CV.html">See more...</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <!-- <div id="projects">
+                <h3>Projects</h3>
+                <div class="row">
+                    <article class="column col-4 col-s-4">
+                        <img src="images/pic1.jpg" alt="project_img">
+                        <div class="block_text">
+                            <p>Project Name</p>
+                        </div>
+                    </article>
+                    <article class="column col-4 col-s-4">
+                        <img src="images/pic2.jpg" alt="project_img">
+                        <div class="block_text">
+                            <p>Project Name</p>
+                        </div>
+                    </article>
+                    <article class="column col-4 col-s-4">
+                        <img src="images/pic3.jpg" alt="project_img">
+                        <div class="block_text">
+                            <p>Project Name</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="row">
+                    <a href="#">See more...</a>
+                </div>
+            </div> -->
+            <div id="contact">
+                <h3>Contact</h3>
+                <article class="content">
+                    <form action="">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your First Name" />
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your Last Name" />
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" />
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something..." ></textarea>
+                        <input type="submit" value="Submit" />
+                    </form>
+                </article>
+            </div>
+        </section>
+    <footer id="bottom_footer">
+        <p>Powered by White Cloud</p>
+    </footer>
+</body>
+<script>
+    // Navigation bar
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+    // Slide show
+    var myIndex = 0;
+    carousel();
+    function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 10000);
+    }
+</script>
+</html>
