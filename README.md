@@ -1,2 +1,0 @@
-# cv-project
-First project
