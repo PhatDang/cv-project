@@ -14,3 +14,5 @@
     > [17/04/2019] Review code change
     > [17/04/2019] Create project on Github.com
                     => Link: https://github.com/PhatDang/cv-project
+    > [19/04/2019] Create new branch: code-dev
+                    => For developer can change the code and wait for merge with Master branch
