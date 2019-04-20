@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  canvas {
+    background: #0a0a0a;
+  }
+  
+  button {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+  }
+  button::before {
+    content: attr(id);
+  }
+  

@@ -1,7 +1,7 @@
 !!! When you change something, please add your change here:
 ==========================
 - [Le Minh Trung]:
-    > [dd/MM/yyyy] [CREATE] Create project "P.T"
+    > [20/04/2019] [CREATE] Create project "P.T"
     > [16/04/2019] [UPDATE] Change the images in the slide
     > [16/04/2019] [UPDATE] Update max width for web container from 1550px to 1330px
     > [16/04/2019] [ADD NEW] Create a new User_CV Page
@@ -11,9 +11,10 @@
 - [Dang Minh Phat]:
     > [16/04/2019] [UPDATE] Change the structure of the directory tree in the project
     > [16/04/2019] [UPDATE] Update code in HTML file.
-    > [17/04/2019] [CODE REVIEW] Review code change
-    > [17/04/2019] [CREATE] Create project on Github.com
+    > [20/04/2019] [CODE REVIEW] Review code change
+    > [20/04/2019] [CREATE] Create project on Github.com
                     => Link: https://github.com/PhatDang/cv-project
-    > [19/04/2019] [CREATE] Create new branch: code-dev
+    > [20/04/2019] [CREATE] Create new branch: code-dev
                     => For developer can change the code and wait for merge with Master branch
-    > [20/04/2019] ...
+    > [20/04/2019] [ADD NEW] Add new module: Canvas Particular Animation
+                    => The module will be finish today.
