@@ -19,3 +19,4 @@
     > [20/04/2019] [ADD NEW] Add new module: Canvas Particular Animation
                     => The module will be finish today.
     > [29/04/2019] [UPDATE] Create Gitlab to work Freelancer and Outsource
+    > [03/05/2019] [CREATE] Create Azure Devops for new projet, test demo project
